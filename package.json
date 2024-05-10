@@ -11,5 +11,8 @@
     "url": "https://github.com/tankyu-dojo.github.io"
   },
   "author": "探究道場",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10"
+  }
 }
