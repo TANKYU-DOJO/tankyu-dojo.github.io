@@ -1,0 +1,16 @@
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+      - run: pip install jinja2
+      - run: python build.py
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+      - run: |
+          git add .
+          git commit -m "generated"
+          git push
