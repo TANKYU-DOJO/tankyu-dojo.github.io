@@ -12,7 +12,7 @@ for file in glob('**/*.jinja', recursive=True):
         # テンプレートファイルを読み込む
         template = env.get_template(file)
         # 出力するファイルを開く
-        output = open(os.path.splitext(file)[0] + '.html', 'w')
+        output = open(os.path.splitext(file)[0] + '.html', 'w', encoding="utf-8")
         # 書き出す
         output.write(template.render())
         output.close()
