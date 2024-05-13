@@ -24,7 +24,8 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 24rem;
+  background-color: black;
 }
 
 
@@ -87,6 +88,7 @@ body {
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
+  opacity: 0.7;
 }
 
 .carousel-caption h1 {
