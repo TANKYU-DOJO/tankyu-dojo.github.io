@@ -22,10 +22,6 @@ body {
   z-index: 10;
 }
 
-h1:not(.carousel-caption h1) {
-  text-align: center;
-}
-
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
