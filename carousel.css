@@ -88,3 +88,11 @@ body {
   -moz-user-select: none;
   user-select: none;
 }
+
+.carousel-caption h1 {
+  color: white;
+}
+
+.carousel-caption p {
+  color: white;
+}
