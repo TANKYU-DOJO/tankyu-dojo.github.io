@@ -71,3 +71,7 @@ h1:not(.carousel-caption h1) {
   font-size: 50pt;
   margin: 0px auto 40pt;
 }
+
+body {
+  padding-top: 60px;
+}
